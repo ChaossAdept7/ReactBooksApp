@@ -1,0 +1,53 @@
+@item_color: rgb(249, 249, 249);
+@book_record_color: rgba(243, 243, 243, 0.22);
+@general_color: rgba(63, 63, 63, 0.85);
+
+.row{
+  .green{
+    background: green;
+  }
+  .blue{
+    background: blue;
+  }
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+body{
+  color:@general_color;
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+.border_raduis_4{
+  border-radius:4px;
+}
+
+.item{
+  background: @item_color;
+}
+
+.book_item{
+  background: @book_record_color;
+}
+
+.display_inline{
+  h1,h2,h3,h4{
+    display: inline-block;
+  }
+  .row{
+    margin-left: 0px;
+  }
+}
+
+.books_page{
+  border-right: 1px solid #ccc;
+  overflow: auto;
+  padding: 10px;
+}
+
+.container{
+  margin-left: 5px;
+}

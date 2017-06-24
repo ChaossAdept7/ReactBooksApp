@@ -1,0 +1,14 @@
+.blue{
+    background: blue;
+}
+.green{
+    background: green;
+}
+
+.row{
+    text-align: left;
+}
+
+.row.blue, .row.green{
+    margin-left: 20px;
+}
