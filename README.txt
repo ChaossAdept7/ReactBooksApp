@@ -7,3 +7,6 @@ Installation instructions
 
 App will be availiable at url http://localhost:3000/
 Tested on Linux Mint(Chromium) and on Windows 10(Chrome)
+
+Task description -
+https://gist.github.com/geksilla/72a0cb882d2b7d8b4336
